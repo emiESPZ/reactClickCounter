@@ -32,7 +32,7 @@ function App() {
         <Contador numClics={numClics} />
         <Boton texto='Click' esBotonDeClic={true} manejarClic={manejarClic} />
         <Boton
-          texto='Reiniciar'
+          texto='Restart'
           esBotonDeClic={false}
           manejarClic={reiniciarContador}
         />
